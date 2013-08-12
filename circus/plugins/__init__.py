@@ -203,7 +203,7 @@ def main():
                         help='Displays Circus version and exits.')
 
     parser.add_argument('--check-delay', type=float, default=5.,
-                        help='Checck delay.')
+                        help='Check delay.')
 
     parser.add_argument('plugin',
                         help='Fully qualified name of the plugin class.',
